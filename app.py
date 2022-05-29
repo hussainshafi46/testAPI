@@ -11,7 +11,7 @@ def home():
   
 @app.route('/home/<int:num>', methods = ['GET'])
 def disp(num):
-	return jsonify({'data': num**2})
+	return jsonify({'data': num**3})
 
 
 if __name__ == '__main__':
