@@ -1,3 +1,9 @@
 flask
 gunicorn
 dlib
+numpy
+pillow
+opencv-python
+face-recognition
+pymongo
+tensorflow
